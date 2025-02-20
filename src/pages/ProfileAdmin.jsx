@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import mockData from '../mockData'; 
+import mockData from '../mockdata.js'; 
 
 const ProfileAdmin = () => {
   const [user, setUser] = useState(null);
